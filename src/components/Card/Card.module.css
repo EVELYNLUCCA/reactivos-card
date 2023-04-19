@@ -1,0 +1,44 @@
+.cardContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    width: 260px;
+    height: 350px;
+    margin: 5px;
+    padding: 5px;
+    /* border: 1px solid rgb(239, 237, 235); */
+}
+
+.rol {
+    border:1px solid rgb(248, 211, 195);
+    background-color: var(--contenedorSubtitulos);
+    border-radius: 15px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+
+    width: 85%;
+    color:rgb(42, 40, 40);
+    padding:5px;
+    text-align: center;
+}
+.boxImg{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.img{
+    width:200px;
+    height: 200px;
+    background-color: rgb(215, 206, 206);
+}
+
+.btnMail{
+    border:1px solid grey;
+    background-color: var(--contenedorNombre);
+    border-radius: 20px;
+    margin-top: 10px;
+    width: 90%;
+    color:white;
+    text-align: center;
+}
